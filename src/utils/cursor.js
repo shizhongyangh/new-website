@@ -9,6 +9,7 @@ const lerp = (a, b, n) => {
   return (1 - n) * a + n * b;
 };
 
+
 const getStyle = (el, attr) => {
   try {
     return window.getComputedStyle ? window.getComputedStyle(el)[attr] : el.currentStyle[attr];
